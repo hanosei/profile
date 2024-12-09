@@ -1,0 +1,160 @@
+body {
+  font-family: "Delius", cursive;
+  color: #816E5C;
+  padding: 10px;
+  text-align: center;
+  background-image: url('https://i.pinimg.com/736x/28/02/66/280266ca74b61ca1458b68ba5a5c2291.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.delius-regular {
+  font-family: "Delius", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+h1
+{
+  font-family: "Delius", cursive;
+  color: #FFFFFF;
+}
+
+h2 {
+  font-family: "Delius", cursive;
+  color: #4A302B;
+}
+
+h3 {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  font-family: "Delius", cursive;
+  color: #4A302B;
+}
+
+li{
+  display: flex;
+  justify-content: center;
+  font-family: "Delius", cursive;
+  color: #4A302B;
+}
+
+ul{
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: 789DBC;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  color: #CAB8A2;
+}
+
+#profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50px
+}
+
+.card {
+  background-color: #DCD9CD;
+  padding: 10px;
+  width: 700px;
+  margin: 25px auto;
+  border-radius: 5;
+  border: 1px solid #898478;
+}
+
+.card-title {
+  background-color: #DCD9CD;
+  padding: 5px;
+  width: 350px;
+  margin: 25px auto;
+  border-radius: 20;
+  border: 1px solid #898478;
+}
+
+.card-across-container {
+  display: flex;
+  justify-content: center;
+  gap: 0px;
+  margin-top: 10px;
+}
+
+.card-across {
+  background-color: #DCD9CD;
+  padding: 10px;
+  width: 300px;
+  margin: 25px auto;
+  border-radius: 5;
+  border: 1px solid #898478;
+}
+
+@media (max-width: 960px) {
+  .card, .card-across {
+    width: 90%;
+  }
+
+  h1, h2 {
+    font-size: 1.8rem;
+  }
+
+  #profile-pic {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 720px) {
+  .card, .card-across {
+    width: 80%;
+  }
+
+  h1, h2 {
+    font-size: 1.6rem;
+
+  #profile-pic {
+    width: 120px;
+    height: 120px;
+  }
+
+  .content {
+    padding: 15px;
+  }
+ }
+}
+
+@media (max-width: 540px) {
+  .card, .card-across {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  h1, h2 {
+    font-size: 1.4rem;
+  }
+
+  #profile-pic {
+    width: 100px;
+    height: 100px;
+  }
+
+  .content {
+    padding: 10px;
+  }
+
+  li {
+    font-size: 1rem;
+  }
+}
