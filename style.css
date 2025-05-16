@@ -3,7 +3,7 @@ body {
   color: #816E5C;
   padding: 10px;
   text-align: center;
-  background-image: url('https://i.pinimg.com/736x/28/02/66/280266ca74b61ca1458b68ba5a5c2291.jpg');
+  background-image: url('images\background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -43,6 +43,7 @@ li{
   justify-content: center;
   font-family: "Delius", cursive;
   color: #4A302B;
+  gap: 10px;
 }
 
 ul{
